@@ -23,4 +23,5 @@
 * Packages፡ አስቀድመው የተዘጋጀ ኮድ … ኢምፖርት ይደረጋሉ ፣ ሌላ ኮድ ለመጻፍ የምንዋሰው ማለት ነው ፡ 
     * ምሳሌ ፡ አናጺ መዶሻ አያመርትም
     * code that is already written which you can use -›Imports
+
 ##ዋና መልክት ፡ package main እና func main
