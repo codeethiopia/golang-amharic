@@ -24,4 +24,4 @@
     * ምሳሌ ፡ አናጺ መዶሻ አያመርትም
     * code that is already written which you can use -›Imports
 
-##ዋና መልክት ፡ package main እና func main
+## ዋና መልክት ፡ package main እና func main
