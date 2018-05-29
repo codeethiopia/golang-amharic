@@ -6,6 +6,6 @@ import (
 
 func main() {
 	x := 42
-	y := "Abebe "
+	y := "Abebe"
 	fmt.Println(x, y)
 }
