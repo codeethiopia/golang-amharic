@@ -11,4 +11,5 @@
         * slices
         * channels
         * maps
+
 *use short declaration operator as much as possible*
