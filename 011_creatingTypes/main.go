@@ -6,16 +6,20 @@ import (
 
 var a int
 
-type እንጀራ int // እንጀራ የሚባል አዲስ “type”
+type age int // new type age
 
-var b እንጀራ // አይነቱ “እንጀራ” የሆነ ተባራይ ታወጀ (a variable of type "እንጀራ" declared)
+type ርዝመት int // ርዝመት የሚባል አዲስ “type”
+
+var b ርዝመት // አይነቱ “ርዝመት” የሆነ ተባራይ ታወጀ (a variable of type "ርዝመት" declared)
+
+var c age // variable of type "age" declared
 
 func main() {
-	a = 42
-	b = 43
+	a = 4
+	b = 5
+	c = 6
 	// a = b
-	fmt.Println(a)
-	fmt.Printf("%T\n", a)
-	fmt.Println(b)
-	fmt.Printf("%T\n", b)
+	fmt.Printf("%v\t%T\n", a, a)
+	fmt.Printf("%v\t%T\n", b, b)
+	fmt.Printf("%v\t%T\n", c, c)
 }
