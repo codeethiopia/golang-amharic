@@ -75,10 +75,10 @@ Building on the code from above
    
     b. now do this
        
-     - now use CONVERSION to convert the TYPE of the VALUE stored in “x” to the UNDERLYING TYPE
+    - now use CONVERSION to convert the TYPE of the VALUE stored in “x” to the UNDERLYING TYPE
             
-    * then use the “=” operator to ASSIGN that value to “y”
+         * then use the “=” operator to ASSIGN that value to “y”
            
-    * print out the value stored in “y”
+        * print out the value stored in “y”
             
-    * print out the type of “y”
+        * print out the type of “y”
