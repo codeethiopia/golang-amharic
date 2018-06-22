@@ -32,11 +32,15 @@ Using the code from above
 4. at the package level scope, assign the following values to the three variables
 
     a. for x assign 42
+   
     b. for y assign “Dr. Abiy Ahmed”
+    
     c. for z assign true
 
 5. in func main
+   
     a. use fmt.Sprintf to print all of the VALUES to one single string. ASSIGN the returned value of TYPE string using the short declaration operator to a VARIABLE with the IDENTIFIER “s”
+   
     b. print out the value stored by variable “s”
 
 6. Create your own type. Have the underlying type be an int.
@@ -44,9 +48,13 @@ Using the code from above
 7. create a VARIABLE of your new TYPE with the IDENTIFIER “x” using the “VAR” keyword
 
 8. in func main
+   
     a. print out the value of the variable “x”
+    
     b. print out the type of the variable “x”
+   
     c. assign 42 to the VARIABLE “x” using the “=” OPERATOR
+   
     d. print out the value of the variable “x”
 
 Building on the code from above
@@ -54,13 +62,23 @@ Building on the code from above
 9. At the package level scope, using the “var” keyword, create a VARIABLE with the IDENTIFIER “y”. The variable should be of the UNDERLYING TYPE of your custom TYPE “x”
 
 10. in func main
+   
     a. this should already be done
+        
         - print out the value of the variable “x”
+       
         - print out the type of the variable “x”
+       
         - assign your own VALUE to the VARIABLE “x” using the “=” OPERATOR
+       
         - print out the value of the variable “x”
+   
     b. now do this
+       
         - now use CONVERSION to convert the TYPE of the VALUE stored in “x” to the UNDERLYING TYPE
+            
             * then use the “=” operator to ASSIGN that value to “y”
+           
             * print out the value stored in “y”
+            
             * print out the type of “y”
