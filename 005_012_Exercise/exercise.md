@@ -10,7 +10,7 @@ true
 ```
 
 Now print the values stored in those variables using :
-    
-    * a single print statement
-    
-    * multiple print statements
+
+* a single print statement   
+
+* multiple print statements
