@@ -5,7 +5,7 @@
 
 ```
 42
-“Dr. Abiy Ahmed”
+“Abebe Bikila”
 true
 ```
 
@@ -14,6 +14,8 @@ Now print the values stored in those variables using :
 * a single print statement   
 
 * multiple print statements
+
+
 
 2. Use var to DECLARE three VARIABLES. The variables should have package level scope. Do not assign VALUES to the variables. Use the following IDENTIFIERS for the variables and make sure the variables are of the following TYPE (meaning they can store VALUES of that TYPE).
 ```
@@ -33,7 +35,7 @@ Using the code from above
 
     a. for x assign 42
    
-    b. for y assign “Dr. Abiy Ahmed”
+    b. for y assign “Abebe Bikila”
     
     c. for z assign true
 
