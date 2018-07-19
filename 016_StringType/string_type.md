@@ -8,13 +8,13 @@
 
 * ስትሪንግ ለመፍጠር ፣ "" (double quotes) ወይም `` (backticks)
 
-**ምሳሌ**
+**ምሳሌ...**
 
 * በ `` የሚፈጠር ስትሪንግ [string literal](https://golang.org/ref/spec#String_literals)  ይባላል። returns እና spaces  መኖር ይችላሉ 
     
     * “\” (backslashes) ልዩ ትርጉም የለውም 
 
-**ምሳሌ**
+**ምሳሌ...**
 
 * ዋጋው የ ባይቶች (bytes) ስብስብ ነው ፣  sequence of bytes ወይም slice of bytes
 
@@ -22,7 +22,7 @@
 
 * ስትሪንግን ወደ ባይት ዝርዝር (slice of bytes፣ []byte(s)) መቀየር እንችላለን።
 
-**ምሳሌ**
+**ምሳሌ...**
 
 * የ [ASCII](https://en.wikipedia.org/wiki/ASCII) ኮዲንግ ስኪም ላይ እያንዳንዱ ባይት የሚወክለውን ፊደል እንይ ።
 
@@ -55,7 +55,7 @@ Other flags:
 	for numbers, this moves the padding after the sign
 ```
 
-**ምሳ ** 
+**ምሳሌ...**
 
 * Each code point is known as a rune, which is an alias for int32. Each rune is a code point in UTF-8.
 
