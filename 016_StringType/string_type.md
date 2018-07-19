@@ -24,7 +24,7 @@
 
 **ምሳሌ**
 
-    * የ [ASCII](https://en.wikipedia.org/wiki/ASCII) ኮዲንግ ስኪም ላይ እያንዳንዱ ባይት የሚወክለውን ፊደል እንይ ።
+* የ [ASCII](https://en.wikipedia.org/wiki/ASCII) ኮዲንግ ስኪም ላይ እያንዳንዱ ባይት የሚወክለውን ፊደል እንይ ።
 
 * ከዴሲማል በተጨማሪ በሄክሳዴሲማልና በ UTF-8  የስትሪንጉን የኢንኮዲንግ ዋጋ ማየት ከፈለግን የ [fmt ፓኬጅ](https://golang.org/pkg/fmt/) ውስጥ ያሉ ቅርጸት ገላጭ (formatting verbs) በድጋሚ እንይ …
 
