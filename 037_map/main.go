@@ -13,7 +13,7 @@ func main() {
 	// ማፕ በፍጥነት መገኘት ያለበትን ውህብ ለማስቀመጥ ምቹ ነው ።
 	fmt.Println(age["Kebede"])
 
-	// ማፕ ውስጥ ያለና የሌለ ዋጋን በቀላሉ መለየት ይቻላል
+	// ማፕ ውስጥ ያለና የሌለ ዋጋን በቀላሉ መለየት ይቻላል - comma ok idiom
 	x, ok := age["Abebe"]
 	fmt.Println(x, ok)
 
