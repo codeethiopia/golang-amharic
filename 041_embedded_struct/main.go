@@ -46,6 +46,6 @@ func main() {
 	fmt.Println(s1)
 
 	fmt.Println(s2)
-	// የስም ግጭት (መደጋገም) እስከሌለ ድረስ በውስጠኛው ስትረክት ውስጥ ያሉትን አይነቶች በቀጥታ ማግኘት እንችላለን ( the inner type gets promoted to the outer type)
+	// በውስጠኛው ስትረክት ውስጥ ያሉትን አይነቶች በቀጥታ ማግኘት እንችላለን ( the inner type gets promoted to the outer type)
 	fmt.Println(s1.firstName,s1.age,s1.school)
 }
