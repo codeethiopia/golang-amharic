@@ -6,21 +6,11 @@ import (
 
 func main() {
 
-	x := sum(1)
-	fmt.Println(x)
-
-	y := sum()
-	fmt.Println(y)
-
-	z := sum(23, 454, 665, 776, 343, 444, 5657, 887)
-	fmt.Println(z)
-
-	// unfurling a slice - in part 045
 	l := []int{1, 3, 4, 5, 6, 7, 8, 9}
 	m := sum(l...)
-
 	fmt.Println(m)
 
+	score("Abebe", l...)
 }
 
 func sum(x ...int) int {
@@ -29,4 +19,12 @@ func sum(x ...int) int {
 		total += v
 	}
 	return total
+}
+
+func score(name string, s ...int) {
+	totalScore := 0
+	for _, v := range s {
+		totalScore += v
+	}
+	fmt.Printf("%s scored : %d\n", name, totalScore)
 }
